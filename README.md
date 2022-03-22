@@ -8,3 +8,7 @@ usermod -aG sudo admin
 
 rsync --archive --chown=admin:admin ~/.ssh /home/admin
 
+
+---------------------- delete users----------------
+
+userdel admin -r admin
