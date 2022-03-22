@@ -12,3 +12,7 @@ rsync --archive --chown=admin:admin ~/.ssh /home/admin
 ---------------------- delete users----------------
 
 userdel admin -r admin
+
+----------------------list users-------------------
+
+cat /etc/passwd
