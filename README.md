@@ -1,13 +1,22 @@
-# ubuntu-setup
+# ubuntu setup
 
+## Getting Started
+
+### Create admin user
+
+```
 useradd -m admin -s /bin/bash -g admin
+```
 
+```
 passwd admin
-
+```
+```
 usermod -aG sudo admin
-
+```
+```
 rsync --archive --chown=admin:admin ~/.ssh /home/admin
-
+```
 
 ---------------------- delete users----------------
 
