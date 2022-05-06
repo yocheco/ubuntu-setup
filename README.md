@@ -62,6 +62,10 @@ OpenSSH (v6)               ALLOW       Anywhere (v6)
 
 ### Git guardar credenciales
 ```
+git config --global credential.helper store
+```
+
+```
 git config --global credential.helper cache
 ```
 
