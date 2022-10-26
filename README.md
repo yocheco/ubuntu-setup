@@ -74,6 +74,8 @@ nano /etc/ssh/ssh_config
 ```
 and #   PasswordAuthentication yes.  to no
 
+📓 File save public ssh rsa keys in /home/$USER/.ssh
+
 ### Git
 🧠 guardar credenciales
 ```
