@@ -68,7 +68,14 @@ OpenSSH (v6)               ALLOW       Anywhere (v6)
 ssh-copy-id ubuntu@192.168.0.x
 ```
 
-### Git guardar credenciales
+🪤 Delete login to password 
+```
+nano /etc/ssh/ssh_config
+```
+and #   PasswordAuthentication yes.  to no
+
+### Git
+🧠 guardar credenciales
 ```
 git config --global credential.helper store
 ```
