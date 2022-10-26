@@ -60,6 +60,12 @@ To                         Action      From
 OpenSSH                    ALLOW       Anywhere
 OpenSSH (v6)               ALLOW       Anywhere (v6)
 
+### Copy public key ssh to server 
+[-p] 
+```
+ssh-copy-id ubuntu@192.168.0.x
+```
+
 ### Git guardar credenciales
 ```
 git config --global credential.helper store
@@ -68,8 +74,5 @@ git config --global credential.helper store
 ```
 git config --global credential.helper cache
 ```
-
-
-
 
 
