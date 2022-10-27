@@ -1,5 +1,7 @@
 # ubuntu setup
 
+sudo htop
+
 
 ### Create admin user
 
