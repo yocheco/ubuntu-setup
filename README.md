@@ -72,7 +72,15 @@ ssh-copy-id ubuntu@192.168.0.x
 ```
 nano /etc/ssh/ssh_config
 ```
-and #   PasswordAuthentication yes.  to no
+
+File ssh_config
+```
+ PasswordAuthentication no
+ PermitEmptyPasswords no
+ PermitRootLogin no
+ ```
+ sudo systemctl restart ssh
+ 
 
 📓 File save public ssh rsa keys in /home/$USER/.ssh
 
