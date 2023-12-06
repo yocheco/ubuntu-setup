@@ -6,7 +6,7 @@ sudo htop
 ### Update sistem
 ```
 sudo apt update
-sudo apt upgrade
+sudo apt upgrade --yes
 ```
 
 ### 🐋 Install docker
