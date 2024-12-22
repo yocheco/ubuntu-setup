@@ -148,13 +148,21 @@ ls -l /etc/cron.*
 1.3. Revisar el Archivo Principal de cron
 ls -l /etc/crontab
 
-
-
+### Install fail2ban
+```
 sudo apt install fail2ban
-sudo apt install fail2ban
+```
+```
 sudo systemctl enable fail2ban
 sudo systemctl start fail2ban
 sudo systemctl status fail2ban
+```
+
+#### Config
+
+```
+sudo nano /etc/fail2ban/jail.loca
+```
 
 [sshd]
 enabled = true
