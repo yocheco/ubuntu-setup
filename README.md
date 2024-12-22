@@ -164,11 +164,14 @@ sudo systemctl status fail2ban
 sudo nano /etc/fail2ban/jail.loca
 ```
 
+file jail.loca
+```
 [sshd]
 enabled = true
 port = ssh
 maxretry = 3
 bantime = 3600
+```
 
 =======================================================
 
