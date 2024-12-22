@@ -148,7 +148,7 @@ ls -l /etc/cron.*
 1.3. Revisar el Archivo Principal de cron
 ls -l /etc/crontab
 
-### Install fail2ban
+### ☢️ Install fail2ban
 ```
 sudo apt install fail2ban
 ```
@@ -360,20 +360,22 @@ sudo dpkg -i eset_nod32av_*.deb
 sudo apt install -f
 Usar la interfaz gráfica o comandos para escanear.
 
-1.4. Lynis (Auditoría de Seguridad)
+### 🪖  1.4. Lynis (Auditoría de Seguridad)
+
 Lynis no es un antivirus tradicional, pero realiza auditorías de seguridad y detecta configuraciones inseguras o potencialmente comprometidas.
 
 Instalar Lynis:
 
-bash
-Copiar código
+```bash
 sudo apt update
 sudo apt install lynis
+```
+
 Realizar un análisis completo:
 
-bash
-Copiar código
+```bash
 sudo lynis audit system
+```
 Lynis te proporcionará un informe con recomendaciones para mejorar la seguridad.
 
 2. Detectar Rootkits
