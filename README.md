@@ -441,5 +441,18 @@ plaintext
 Copiar código
 0 3 * * * /usr/bin/clamscan -r / > /var/log/clamav-scan.log
 
+==========================================================
 
+## 🧼 2. Instala logrotate
+
+```bash
+sudo apt install logrotate
+```
+
+files:  /etc/logrotate.d
+
+verifi config
+```bash
+sudo logrotate -d /etc/logrotate.conf
+```
 
